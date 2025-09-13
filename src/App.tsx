@@ -164,12 +164,17 @@ function App() {
             </div>
           </div>
           <p className="text-xl text-gray-600 mt-12 italic">
-            "Você não está sozinha. Milhares de mulheres vivem essa sobrecarga silenciosa todos os dias. 
-            <span className="text-xl font-bold text-gray-600 mt-12 italic"> Mas existe um caminho diferente </span>sapan> </>."
-          </p>
-        </div>
+  Você não está sozinha. Milhares de mulheres vivem essa sobrecarga silenciosa todos os dias.
+  <span className="text-xl font-bold text-gray-600 mt-12 italic">
+    Mas existe um caminho diferente
+  </span>.
+</p>         
+     </div>
       </section>
 
+
+
+      
     {/* 4. Bloco Transição da Dor para Solução */}
 <section className="py-16 px-4 bg-white">
   <div className="max-w-4xl mx-auto text-center">
