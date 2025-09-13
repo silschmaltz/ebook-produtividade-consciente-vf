@@ -34,7 +34,7 @@ function App() {
              Descubra o método que ajuda mulheres a serem mais organizadas sem se perderem de si               mesmas.
           </p>
           <div className="mb-10">
-            <div className="w-64 h-80 mx-auto rounded-lg shadow-2xl overflow-hidden border-4 border-white">
+            <div className="w-128 h-160 mx-auto rounded-lg shadow-2xl overflow-hidden border-4 border-white">
               <img 
                 src="https://i.ibb.co/MDhfgsyP/1750861765.png" 
                 alt="Jornada da Produtividade Consciente - E-book"
