@@ -24,14 +24,13 @@ function App() {
       <section className="py-16 px-4 text-center bg-gradient-to-r from-rose-100 to-purple-100">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
-            Produtiva sim. Sobrecarregada, nunca mais.
+            Produtiva sim. Sobrecarregada? Nunca mais.
             Transforme sua rotina em uma 
             <span className="text-rose-500"> jornada de equilíbrio </span> 
             sem se esgotar
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Transforme sua rotina com leveza, foco e bem-estar emocional.
-             Descubra o método que ajuda mulheres a serem mais organizadas sem se perderem de si               mesmas.
+           Descubra o método que ajuda mulheres a serem mais organizadas sem se perderem de si               mesmas.
           </p>
           <div className="mb-10">
             <div className="w-128 h-160">
@@ -166,7 +165,7 @@ function App() {
           </div>
           <p className="text-xl text-gray-600 mt-12 italic">
             "Você não está sozinha. Milhares de mulheres vivem essa sobrecarga silenciosa todos os dias. 
-            Mas existe um caminho diferente."
+            <span className="text-xl font-bold text-gray-600 mt-12 italic"> Mas existe um caminho diferente </span>sapan> </>."
           </p>
         </div>
       </section>
@@ -183,7 +182,7 @@ function App() {
     </p>
     <div className="bg-gradient-to-r from-rose-50 to-purple-50 p-8 rounded-2xl mb-8">
       <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-        Apresento a você: Jornada da Produtividade Consciente
+        Apresento a você: <span className="text-2xl font-semibold text-rose-500 mb-4"> A Jornada da Produtividade Consciente </span> </>
       </h3>
       <p className="text-lg text-gray-600">
         Não é mais um método rígido ou mágico. É um guia prático e acolhedor para transformar 
@@ -374,30 +373,36 @@ function App() {
         </div>
       </section>
 
-      {/* 8. Bloco Ancoragem com preço */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
-            Todo esse conteúdo vale muito mais...
-          </h2>
-          <div className="bg-gradient-to-r from-gray-100 to-gray-200 p-8 rounded-2xl mb-8">
-            <p className="text-lg text-gray-600 mb-4">
-              Se você fosse contratar uma consultora em produtividade para criar um plano personalizado, 
-              pagaria facilmente:
-            </p>
-            <div className="text-4xl font-bold text-gray-400 line-through mb-2">R$ 297</div>
-            <p className="text-gray-500">Valor de uma consultoria individual</p>
-          </div>
-          
-          <div className="bg-gradient-to-r from-rose-500 to-pink-500 text-white p-8 rounded-2xl">
-            <p className="text-xl mb-4">Mas hoje, seu investimento é de apenas:</p>
-            <div className="text-5xl font-bold mb-2">R$ 37 </div>
-            <p className="text-lg opacity-90">
-              Menos que o valor de um almoço fora - um investimento em você que durará para sempre
-            </p>
-          </div>
-        </div>
-      </section>
+     {/* 8. Bloco Ancoragem com preço */}
+<section className="py-16 px-4 bg-white">
+  <div className="max-w-3xl mx-auto text-center">
+    
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+      Quanto vale ter uma rotina leve, produtiva e sem sobrecarga?
+    </h2>
+
+    <div className="bg-gradient-to-r from-gray-100 to-gray-200 p-8 rounded-2xl mb-8">
+      <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+        Imagine ter alguém pegando na sua mão e te guiando para organizar sua rotina, 
+        eliminar a sobrecarga e recuperar o controle da sua vida. 
+        Uma consultoria assim poderia custar <strong>R$ 297 ou mais</strong>...
+      </p>
+      <div className="text-4xl font-bold text-gray-400 line-through mb-2">R$ 297</div>
+      <p className="text-gray-500">Valor médio de uma consultoria individual</p>
+    </div>
+
+    <div className="bg-gradient-to-r from-rose-500 to-pink-500 text-white p-8 rounded-2xl shadow-xl">
+      <p className="text-xl mb-4">Mas hoje você não precisa investir tudo isso.</p>
+      <p className="text-xl mb-4 font-medium">Você pode transformar sua rotina por apenas:</p>
+      <div className="text-5xl font-bold mb-2">R$ 37</div>
+      <p className="text-lg opacity-90 leading-relaxed">
+        Menos do que você gastaria em um simples almoço, 
+        por um guia prático que pode <strong>mudar sua vida para sempre</strong>.
+      </p>
+    </div>
+
+  </div>
+</section>
 
     {/* 9. Bloco Valor (botão para comprar) */}
 <section className="py-12 px-4 bg-gradient-to-r from-rose-100 to-purple-100">
@@ -414,7 +419,7 @@ function App() {
     </a>
     <p className="text-gray-600 mt-4">
       <Shield className="inline-block w-4 h-4 mr-1" />
-      Acesso imediato após a compra
+      Acesso imediato após a compra. Garantia de 7 dias.
     </p>
   </div>
 </section>
@@ -450,34 +455,43 @@ function App() {
   </div>
 </section>
 
-      {/* 11. Bloco Autoridade */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
-            Quem criou este método para você
-          </h2>
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-48 h-48 bg-gradient-to-br from-rose-200 to-purple-200 rounded-full flex items-center justify-center">
-              <Heart className="w-16 h-16 text-rose-600" />
-            </div>
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Clara Martins</h3>
-              <p className="text-lg text-gray-600 mb-4">
-                Mãe de duas meninas, empreendedora digital e especialista em produtividade consciente 
-                e bem-estar emocional feminino.
-              </p>
-              <p className="text-gray-600 mb-4">
-                Após anos lutando contra métodos de produtividade que não funcionavam para mulheres reais, 
-                Clara desenvolveu uma abordagem única que combina eficiência com autocuidado.
-              </p>
-              <p className="text-gray-600">
-                Sua missão é ajudar mulheres a encontrarem o equilíbrio entre ser produtiva e ser humana, 
-                sem sacrificar uma pela outra.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+   {/* 11. Bloco Autoridade */}
+<section className="py-16 px-4 bg-white">
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+      Quem criou este método para você
+    </h2>
+
+    <div className="flex flex-col md:flex-row items-center gap-8">
+      
+      {/* Foto da autora no lugar do ícone */}
+      <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg border-4 border-rose-200">
+        <img
+          src="https://i.ibb.co/YOUR_IMAGE_DIRECT_LINK.png" 
+          alt="Clara Martins - Criadora do método"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Texto sobre a autora */}
+      <div className="flex-1 text-center md:text-left">
+        <h3 className="text-2xl font-bold text-gray-800 mb-4">Clara Martins</h3>
+        <p className="text-lg text-gray-600 mb-4">
+          Mãe de duas meninas, empreendedora digital e especialista em produtividade consciente 
+          e bem-estar emocional feminino.
+        </p>
+        <p className="text-gray-600 mb-4">
+          Após anos lutando contra métodos de produtividade que não funcionavam para mulheres reais, 
+          Clara desenvolveu uma abordagem única que combina eficiência com autocuidado.
+        </p>
+        <p className="text-gray-600">
+          Sua missão é ajudar mulheres a encontrarem o equilíbrio entre ser produtiva e ser humana, 
+          sem sacrificar uma pela outra.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
      {/* 12. Bloco Valor (botão comprar) */}
 <section className="py-12 px-4 bg-gradient-to-r from-purple-100 to-rose-100">
@@ -490,7 +504,7 @@ function App() {
       className="bg-gradient-to-r from-purple-500 to-rose-500 text-white px-16 py-6 rounded-full text-2xl font-bold hover:from-purple-600 hover:to-rose-600 transition-all transform hover:scale-105 shadow-2xl inline-block"
     >
       <ArrowRight className="inline-block mr-3 w-6 h-6" />
-      Quero começar agora
+      Quero meu acesso
     </a>
     <p className="text-gray-600 mt-4">
       <CheckCircle className="inline-block w-4 h-4 mr-1" />
