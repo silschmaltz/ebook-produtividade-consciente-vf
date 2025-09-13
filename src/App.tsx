@@ -19,6 +19,8 @@ import {
 
 function App() {
   return (
+     
+    
     <div className="min-h-screen bg-gradient-to-br from-rose-50 to-purple-50">
       {/* 1. Bloco Vender Sozinho */}
       <section className="py-16 px-4 text-center bg-gradient-to-r from-rose-100 to-purple-100">
@@ -33,14 +35,13 @@ function App() {
             Transforme sua rotina com leveza, foco e bem-estar emocional.
              Descubra o método que ajuda mulheres a serem mais organizadas sem se perderem de si               mesmas.
           </p>
-          <div className="mb-10">
-            <div className="w-64 h-80 mx-auto rounded-lg shadow-2xl overflow-hidden border-4 border-white">
-              <img 
-                src="https://i.ibb.co/MDhfgsyP/1750861765.png" 
-                alt="Jornada da Produtividade Consciente - E-book"
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="w-full md:w-1/2 flex justify-center">
+      <img
+        src="https://i.ibb.co/Mkh0P1kY/20250513-1734-Antes-e-Depois-simple-compose-01jv5nn6bafgdb65k199477c1k.png"
+        alt="E-book A Jornada da Produtividade Consciente"
+        className="max-w-xs md:max-w-sm shadow-xl rounded-lg"
+      />
+    </div>
           </div>
         
         </div>
