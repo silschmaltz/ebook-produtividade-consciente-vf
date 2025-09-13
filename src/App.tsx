@@ -467,7 +467,7 @@ function App() {
       {/* Foto da autora no lugar do ícone */}
       <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg border-4 border-rose-200">
         <img
-          src="https://i.ibb.co/YOUR_IMAGE_DIRECT_LINK.png" 
+          src="https://i.ibb.co/ttddfxQ/3a6fdc611f65ea625df708163c0d8730.jpg" 
           alt="Clara Martins - Criadora do método"
           className="w-full h-full object-cover"
         />
