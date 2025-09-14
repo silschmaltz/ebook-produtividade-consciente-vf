@@ -33,12 +33,12 @@ function App() {
            Descubra o método que ajuda mulheres a serem mais organizadas sem se perderem de si               mesmas.
           </p>
           <div className="mb-10">
-            <div className="w-128 h-160">
+           <div className="w-72 h-96">
               <img 
                 src="https://i.ibb.co/MDhfgsyP/1750861765.png" 
                 alt="Jornada da Produtividade Consciente - E-book"
                 className="w-full h-full object-cover"
-              />
+                />
             </div>
           </div>
         
@@ -186,9 +186,12 @@ function App() {
       ser produtivas sem se esgotar, e cuidar de tudo (incluindo de si mesmas) com mais fluidez.
     </p>
     <div className="bg-gradient-to-r from-rose-50 to-purple-50 p-8 rounded-2xl mb-8">
-      <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-        Apresento a você: <span className="text-2xl font-semibold text-rose-500 mb-4"> A Jornada da Produtividade Consciente </span> </>
-      </h3>
+     <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+  Apresento a você: 
+  <span className="text-2xl font-semibold text-rose-500 mb-4">
+    A Jornada da Produtividade Consciente
+  </span>
+</h3>
       <p className="text-lg text-gray-600">
         Não é mais um método rígido ou mágico. É um guia prático e acolhedor para transformar 
         sua relação com o tempo, as tarefas e, principalmente, com você mesma.
@@ -453,8 +456,8 @@ function App() {
 
     {/* Imagem ao final do bloco */}
     <img
-      src="https://i.ibb.co/Mkh0P1kY/20250513-1734-Antes-e-Depois-simple-compose-01jv5nn6bafgdb65k199477c1k.png"
-      alt="Antes e depois - Jornada da Produtividade"
+      src="https://i.ibb.co/fzjpPpYw/Whisk-6150e22b95e440cb3b548ea901d699f0dr.jpg"
+      alt="Apos a Jornada da Produtividade"
       className="mx-auto rounded-xl shadow-xl max-w-full h-auto"
     />
   </div>
